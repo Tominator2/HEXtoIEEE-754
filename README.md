@@ -2,7 +2,7 @@
 
 This is a (very) small Delphi application I wrote for a friend to demonstrate hexadecimal to [IEEE-754 floating point](http://en.wikipedia.org/wiki/IEEE_floating_point) number conversion.  
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/Tominator2/HEXtoIEEE-754/master/screenshot.png)
 
 His work had a [Richtmass RP-3440 power meter](http://www.siamenergysaving.com/product/7451/%E0%B9%80%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B8%B4%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C__%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99_RP-3440/?lang=EN) wtih a Modbus serial port on the back.  They were able to extract data from the meter which they were putting into CSV format like this (note that the date is in Buddhsit Era (BE) format):
 
@@ -53,6 +53,6 @@ The decimal place then gets shifted to the right by the exponent (here 7 places)
  BIN 11100111.1111001111011101 = DEC 231.952590942383 Volts
 ```
 
-The Delphi code to accomplish this is in the file [IEEE754.pas]().
+The Delphi code to accomplish this is in the file [IEEE754.pas](https://github.com/Tominator2/HEXtoIEEE-754/blob/master/IEEE754.pas).
 
-Download the executable for Windows: [IEEE754_Converter.exe]() (416 KB)
+Download the executable for Windows: [IEEE754_Converter.exe](https://github.com/Tominator2/HEXtoIEEE-754/releases/download/v1.0/IEEE754_Converter.exe) (416 KB)
